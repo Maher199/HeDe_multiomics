@@ -1,0 +1,5 @@
+size_class	both	sniffles_only	manta_only	other
+10k-100k	1	904	0	0
+1k-10k	0	14722	0	0
+50-1k	0	51499	36	0
+>=100k	1	409	6	1

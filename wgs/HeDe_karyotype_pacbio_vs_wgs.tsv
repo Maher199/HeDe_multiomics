@@ -1,0 +1,23 @@
+chr	call_pacbio	wlog2r_pacbio	log2r_wgs	call_wgs	concordant
+chr1	neutral	-0.097	0.091	neutral	TRUE
+chr10	neutral	-0.2	0.231	partial gain	FALSE
+chr11	neutral	0.163	-0.068	neutral	TRUE
+chr12	loss	-0.697	0.017	neutral	FALSE
+chr13	gain	0.566	0.465	gain	TRUE
+chr14	neutral	-0.066	-0.13	neutral	TRUE
+chr15	neutral	-0.134	-0.021	neutral	TRUE
+chr16	partial loss	-0.269	-0.265	partial loss	TRUE
+chr17	neutral	-0.142	0.142	neutral	TRUE
+chr18	neutral	-0.084	-0.047	neutral	TRUE
+chr19	partial loss	-0.621	0.21	partial gain	FALSE
+chr2	partial gain	0.133	-0.068	neutral	FALSE
+chr20	neutral	-0.255	-0.11	neutral	TRUE
+chr3	neutral	-0.02	0.1	neutral	TRUE
+chr4	neutral	-0.089	-0.13	neutral	TRUE
+chr5	partial loss	-0.111	-0.165	partial loss	TRUE
+chr6	neutral	-0.051	-0.082	neutral	TRUE
+chr7	neutral	-0.174	0.028	neutral	TRUE
+chr8	neutral	-0.038	0.136	neutral	TRUE
+chr9	neutral	-0.084	0	neutral	TRUE
+chrX	neutral	-0.116	-0.046	neutral	TRUE
+chrY	loss	-5.699	-2.881	loss	TRUE

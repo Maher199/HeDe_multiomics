@@ -1,0 +1,7 @@
+group	tube_id	sample_type	isolation_date	extraction	conc_ng_ul	volume_ul	amount_ug	organism	replicate_type	sequenced
+HeDe whole cell	H-1	Genomic DNA (rat)	26.07.27	MN NucleoSpin Tissue kit	67.5	30.0	2.025	Rattus norvegicus- Fischer 344 strain	biological replicate	TRUE
+HeDe whole cell	H-2	Genomic DNA (rat)	26.03.25	Phenol- chloroform protocol	87.0	30.0	2.61	Rattus norvegicus- Fischer 344 strain	biological replicate	FALSE
+HeDe whole cell	H-3	Genomic DNA (rat)	26.07.20	MN NucleoSpin Tissue kit	44.4	30.0	1.332	Rattus norvegicus- Fischer 344 strain	biological replicate	FALSE
+Healthy Rat Liver	RL-1	Genomic DNA (rat)	26.05.28	Phenol- chloroform protocol	151.0	30.0	4.53	Rattus norvegicus- Fischer 344 strain	technical  replicate	TRUE
+Healthy Rat Liver	RL-2	Genomic DNA (rat)	26.05.28	Phenol- chloroform protocol	185.5	30.0	5.565	Rattus norvegicus- Fischer 344 strain	technical  replicate	FALSE
+Healthy Rat Liver	RL-3	Genomic DNA (rat)	26.05.28	Phenol- chloroform protocol	165.0	30.0	4.95	Rattus norvegicus- Fischer 344 strain	technical  replicate	FALSE

@@ -1,0 +1,5 @@
+chr	acc	paf_records	off_diagonal	interpretation
+chr9	NC_086027.1	2	0	diagonal-only self-alignment; no large interspersed segmental duplications; duplicative content is tandemly arrayed
+chr10	NC_086028.1	1	0	diagonal-only self-alignment; no large interspersed segmental duplications; duplicative content is tandemly arrayed
+chr12	NC_086030.1	1	0	diagonal-only self-alignment; no large interspersed segmental duplications; duplicative content is tandemly arrayed
+chr19	NC_086037.1	5	0	diagonal-only self-alignment; no large interspersed segmental duplications; duplicative content is tandemly arrayed

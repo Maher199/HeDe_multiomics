@@ -1,0 +1,4 @@
+chr	wgs_tum_mean	wgs_nor_mean	wgs_tn_log2r_medianbin	pacbio_cov_rel	pacbio_hetAF_median	pacbio_hetAF_lohlike	chr9_control_lohlike	liver_het_density_vs_genome	mean_MAPQ	rmsk_union_pct	tandup_union_pct	simpleRepeat_pct	verdict	mechanism
+chr12	2.99	2.3	0	0.743	0.452	0.024	0.011	1.01	47.9	72.8	73.6	7.4	neutral (diploid) in tumor	rDNA/NOR-expanded chromosome: WGS pile-up inflation + PacBio long-read deflation; t/n ratio and PacBio het-AF both diploid
+chr10	2.31	1.47	0.224	0.872	0.465	0.01	0.011	0.77	51.3	72.3	65.3	4.4	likely neutral; at most sub-threshold mild gain	differential library recovery of repeat arrays (WGS window-mean gain anti-correlated with PacBio, r=-0.69); PacBio het-AF diploid
+chr19	1.31	1.05	0.218	0.841	0.484	0.025	0.011	0.67	39.7	74	61.8	4.8	likely neutral; 19.6-22.3 Mb unmappable (gaps+collapsed snRNA arrays)	differential repeat recovery between libraries; het-density deficit in depleted windows is mechanical (low DP), not a donor-private deletion
