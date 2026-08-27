@@ -1,0 +1,17 @@
+statistic	value
+n_reads_indexed	5565830
+n_reads_usable	5565830
+total_yield_bp	128127172081
+total_yield_Gb	128.127
+mean_length_bp	23020.3
+median_length_bp	22601
+read_N50_bp	23294
+read_N90_bp	18856
+min_length_bp	108
+max_length_bp	62043
+p01_bp	15439
+p05_bp	17345
+p25_bp	20205
+p75_bp	25505
+p95_bp	30164
+p99_bp	33400
