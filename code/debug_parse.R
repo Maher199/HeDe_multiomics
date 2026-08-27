@@ -1,0 +1,20 @@
+suppressMessages(library(data.table))
+vcf <- fread(cmd="zcat /workspace/hede_followup/variants/novel_PASS.ann.vcf.gz | grep -v '^##' | head -200000",
+             sep="\t", header=TRUE, showProgress=FALSE)
+setnames(vcf, 1, "CHROM"); setnames(vcf, names(vcf), sub("^#","",names(vcf)))
+info <- vcf$INFO
+has <- grepl("ANN=", info, fixed=TRUE)
+cat("has ANN:", sum(has), "/", length(info), "\n")
+ann <- sub(".*ANN=", "", info[has])
+ann <- sub(";.*$", "", ann)
+cat("sample ann[1]:", substr(ann[1],1,120), "\n")
+al <- strsplit(ann, ",", fixed=TRUE)
+aa <- unlist(al, use.names=FALSE)
+cat("total annotations:", length(aa), "\n")
+fp <- tstrsplit(aa, "|", fixed=TRUE, fill="")
+cat("n fields after split:", length(fp), "\n")
+cat("impact table (fp[[3]]):\n"); print(table(fp[[3]], useNA="ifany"))
+cat("\nannotation table top10 (fp[[2]]):\n"); print(head(sort(table(fp[[2]]), decreasing=TRUE),10))
+cat("\nsample missense row fields:\n")
+mi <- which(fp[[2]]=="missense_variant")[1]
+if(!is.na(mi)) print(sapply(fp, function(x) x[mi]))
