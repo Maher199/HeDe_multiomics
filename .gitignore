@@ -1,1 +1,17 @@
 .DS_Store
+
+# Large genomics data: deposit in ENA/SRA/Zenodo, not Git
+*.bam
+*.cram
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+*.vcf.gz
+*.bed.gz
+*.tar.gz
+*.zip
