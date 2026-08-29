@@ -7,7 +7,7 @@ This archive contains the derived data products from deep PacBio HiFi sequencing
 HeDe rat hepatocellular carcinoma (HCC) cell line: a de novo assembly, small-variant and
 structural-variant calls, copy-number segments, and genome-wide 5-methylcytosine (5mC)
 profiles, plus the analysis code. Raw HiFi reads are deposited separately in the NCBI
-Sequence Read Archive (SRA) under BioProject accession `[SRA_ACCESSION]`.
+Sequence Read Archive (SRA) under BioProject accession [![NCBI SRA](https://img.shields.io/badge/NCBI%20SRA-PRJNA1517565-blue.svg)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1517565/).
 
 **Reference genome:** all coordinates use the rat reference **GRCr8**
 (GCF_036323735.1; UCSC rn8). Chromosomes are RefSeq `NC_*` accessions
@@ -20,9 +20,8 @@ modifications (5mC and 6mA) called with jasmine 2.3.0; demultiplexing with lima 
 companion Illumina whole-genome sequencing (WGS) dataset — one HeDe tumor library (H_1)
 and one strain-matched healthy F344 liver library (RL_1, different donor animal) —
 including somatic and germline variant calls, copy-number segments, cross-platform
-concordance tables, and mutational-signature refits. Raw WGS reads are deposited
-separately in the European Nucleotide Archive (ENA) under BioProject accession
-`[ENA_ACCESSION]`.
+concordance tables, and mutational-signature refits. Raw WGS reads are available under BioProject accession
+`PRJNA1517565`.
 
 ---
 
@@ -194,4 +193,4 @@ somatic call set is therefore an upper bound, as disclosed in the accompanying m
 
 ## Citation
 If you use these data, please cite the Data Descriptor (see above) and this dataset
-`[ZENODO_DOI]`.
+[![DOI](https://zenodo.org/badge/854581223.svg)](https://doi.org/10.5281/zenodo.22126105)
