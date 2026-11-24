@@ -196,3 +196,9 @@ somatic call set is therefore an upper bound, as disclosed in the accompanying m
 ## Citation
 If you use these data, please cite the Data Descriptor (see above) and this dataset:
 https://doi.org/10.5281/zenodo.22126105
+
+## License
+
+The dataset files in this repository are made available under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. You may share and adapt the data for any purpose, provided that you give appropriate credit, link to the license, and indicate whether changes were made. See [`LICENSE-DATA`](LICENSE-DATA) or https://creativecommons.org/licenses/by/4.0/.
+
+The analysis scripts in the `code/` directory are licensed under the **MIT License**. See [`LICENSE`](LICENSE) for the license terms.
