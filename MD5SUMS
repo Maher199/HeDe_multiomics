@@ -12,6 +12,7 @@
 0cf980d1f556caa78302519542a3019b  ./code/spectrum96.py
 0eeeddd927776616f7b00cb2b6555e16  ./code/read_lengths_from_pbi.R
 0f668cc56f669d71a0449c994bfd2a92  ./code/germline_concat.sh
+0fd3c1930ed52021b738ea079b6d561d  ./assembly/submission_ready/ptg000197l_mitochondrial_derived.fasta
 0fd8bbe46968c887baaef703b8eb461e  ./.git/objects/d8/9e637a8bd9889eb3e21fb611f971fe96717bac
 1036294649e40446e0c29e3adaedcf6e  ./wgs/segdup_selfaln_summary.tsv
 105732ce9e797839e05b2eb4c1b3c252  ./.git/objects/7c/e29c9e53510df3bb761746dfc340a3f23e65a2
@@ -126,8 +127,10 @@
 7169848bf19a20a08af11f0a143072ac  ./.git/objects/f9/e4b4c105923b1bd787cc0a7c402f1500e207cf
 72a099c25f60a626ed03d2169c5519aa  ./wgs/HeDe_WGS_manta_somaticSV.vcf.gz.tbi
 75b3aec8a2e5e7b97df1ece7fb95865a  ./.git/objects/0c/98985ddbc1a1ef68bc353e21c63e51d4a0559c
+772a2ef715868603e565e41fa17b6924  ./assembly/submission_ready/VERIFICATION.txt
 77739d1d47e5f2be2a863861e2d8f281  ./.git/logs/refs/remotes/origin/HEAD
 785c47acce315e42c1c8793a738e7e81  ./wgs/sample_manifest.tsv
+7b441bc3cbde6ff18845b1b13064125e  ./assembly/submission_ready/CHECKSUMS.txt
 7c1ef45575176b0a3cbf2746971abc54  ./methylation/retrotransposon_5mC.tsv
 7f1f16e82622642cf81765ffb949639b  ./.git/objects/56/80357b5387bd35cb41816120816c517511f9d2
 80396be265107e32fe4aefdbd82ad90b  ./.git/objects/0a/c527eda25a47d0d65f6867cdde9102fd9fc75b
@@ -135,7 +138,6 @@
 81082e589855a7185936ace101d749fd  ./.git/objects/b9/a3a76870e9adcff562f86f1f8689da64b4aca3
 82052fe8f1838b11fc269c19c3752765  ./.git/objects/7e/177658d6da19c656461daf5734897a25953386
 82eaaae139efb3e0c2c7477dd3166e53  ./.git/objects/ee/edc3b5a4f64fa2ccaa89330dbc09de204ae5c5
-8384cb386c912d371484bde84e72679e  ./README.md
 853eebd5b890e7eef8af0f4e712af8ed  ./.git/objects/2e/c653ec0cf42c8a77c3a1d1a265fb5baf94f715
 85a025f0a15527061abc001c932659f0  ./.git/objects/16/8cfcc3e60dd9afdbf33e6cc90dc5c21ae18306
 85b5c99986cebd0b32a6584c68d4ae6b  ./.git/objects/63/443e764280be3bea8db2bdc7ab4c25d9e268bf
@@ -172,6 +174,7 @@ a75dd3fbc139a3852949a77e643b502d  ./.git/COMMIT_EDITMSG
 a80a677e85db53dc57964267da7dd356  ./code/make_karyotype.R
 a8723606be108da44267a5bc556c595f  ./code/detect_cgi.py
 a8f54e8632b2c897846882cfd7e35373  ./methylation.zip
+a9c3a1a2bfc0a1e14be98249fa64c81d  ./assembly/submission_ready/HeDe_nuclear.fasta
 abcbfe46b48df75cda0cb835a99aa39b  ./.git/objects/f4/4c5bf287d6e73f3410e58467ac9f67e11af88c
 abe83f486294de56325a922d5e75ad8b  ./.git/objects/9e/283f2f562aad815f2a4e78d7239a28437fe2d6
 afb0609e65834315df2f2d13e0dde35d  ./.git/objects/62/6008fededcd35642995822fb387a8c2e3fd6db
@@ -223,6 +226,7 @@ d278f0e6491ec84a28184f6e6ca1bb02  ./wgs/HeDe_WGS_RL1_20kb_bins.bed.gz
 d42d8f49ad49863134e94489bad9d9ab  ./sv/HeDe_sniffles2.vcf.gz
 d4c295387fba6cfff850a8fad0bfe7d5  ./.DS_Store
 d51993c8ece30b23e81e2d8aea23a430  ./.git/objects/2e/60eb3fcaacfcea5dc7616cff639d1601da64f1
+d60d4afa7445a4277e44b69ce251de65  ./README.md
 d61600cb24c17b3cb2a50a97fe8a2059  ./.git/objects/ab/0eb6dccda87a9e68eda12f9b952db8f218b639
 d95be614966cf9c249d976ca6329b599  ./wgs/HeDe_WGS_signature_targeted.csv
 db3914d90ce8c2f033a364db34534e88  ./.git/objects/b4/d3f469dccab7ca7d9f1e33a77208537b5bceff
@@ -247,6 +251,7 @@ ecb2a81a71511b93f92747b363cb8968  ./code/sv_concordance.R
 ecc0c8c99fe89b88313bc17806d3847d  ./.git/objects/31/d623b3ebbb5481845b49535085df8518c1569a
 ed797ba5cb49aa05892a113d91497eaa  ./wgs/HeDe_karyotype_pacbio_vs_wgs.tsv
 ef486373843000ec49ba5a383f110c53  ./code/qc_gate.R
+efb818ee687e6a309a87d61af3b11c36  ./assembly/submission_ready/HeDe_nuclear.fasta.gz
 f064a19d2e01360b92b6a36c6d8ebfbf  ./.git/objects/53/66306d9bdf9e440414a9f0f97952b1d97ef1a3
 f151390185d103e45be55aa46123f399  ./wgs/adjudication_windows_chr10_12_19.tsv
 f17bfefd1abba9fa22cd13d537d98989  ./wgs/signature_fit_AFstrata_vs_pacbio.tsv

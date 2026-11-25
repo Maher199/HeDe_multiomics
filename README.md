@@ -4,7 +4,7 @@ Processed data accompanying the Data Descriptor: *"Integrated long- and short-re
 analysis of the HeDe rat hepatocellular carcinoma cell line"* (Scientific Data, under review).
 
 This archive contains the derived data products from PacBio HiFi and Illumina whole-genome
-sequencing of the HeDe rat hepatocellular carcinoma (HCC) cell line: a de novo assembly,
+sequencing of the HeDe rat hepatocellular carcinoma (HCC) cell line: a de novo nuclear assembly,
 small-variant and structural-variant calls, copy-number profiles, genome-wide 5-methylcytosine
 (5mC) profiles, cross-platform comparisons, and analysis code. Raw sequencing reads are
 deposited in the NCBI Sequence Read Archive (SRA), study accession **SRP730136**
@@ -30,8 +30,23 @@ NCBI Sequence Read Archive (SRA), study accession **SRP730136**
 ## Directory contents
 
 ### assembly/
-- `HeDe_assembly.fasta.gz` — de novo assembly (hifiasm), 605 primary contigs,
-  2.81 Gb total, contig N50 65.2 Mb. Contig names use hifiasm `ptgNNNNNNl` convention.
+- `submission_ready/HeDe_nuclear.fasta.gz` — corrected nuclear assembly for submission:
+  604 contigs, 2,806,907,447 bp total, N50 65,226,760 bp (65.23 Mb), L50 16,
+  longest contig 142,489,602 bp, shortest 23,417 bp, and 41.8783% GC. These statistics
+  were calculated directly from this compressed FASTA. It was made by excluding only
+  `ptg000197l`; every other FASTA record is preserved exactly.
+- `submission_ready/HeDe_nuclear.fasta` — uncompressed version of the same nuclear assembly.
+- `submission_ready/ptg000197l_mitochondrial_derived.fasta` — the exact 59,768 bp
+  `ptg000197l` record, retained separately. It aligns across its full length to rat
+  mitochondrial reference NC_001665.2 at 99.406% weighted identity and contains about
+  3.66 mitochondrial-genome lengths. It was excluded from the nuclear assembly; it was
+  not truncated, circularized, or replaced with a new mitochondrial genome.
+- `submission_ready/CHECKSUMS.txt` and `submission_ready/VERIFICATION.txt` — file checksums
+  and byte-for-byte verification details.
+- `HeDe_assembly.fasta.gz` — original hifiasm assembly, retained unchanged for provenance:
+  605 primary contigs, 2.81 Gb total, contig N50 65.2 Mb. Contig names use the hifiasm
+  `ptgNNNNNNl` convention. Its historical checksum remains in `MD5SUMS`. The top-level
+  `assembly.zip` also remains the original archive and was not replaced.
 
 ### variants/
 - `HeDe_novel_PASS.vcf.gz` (+ `.tbi`) — 3,319,205 novel PASS small variants (SNVs and
@@ -195,7 +210,7 @@ somatic call set is therefore an upper bound, as disclosed in the accompanying m
 
 ## Citation
 If you use these data, please cite the Data Descriptor (see above) and this dataset:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24512352.svg)](https://doi.org/10.5281/zenodo.24512352)
+https://doi.org/10.5281/zenodo.24512352
 
 ## License
 

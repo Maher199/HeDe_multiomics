@@ -160,8 +160,13 @@ file	size_bytes
 .git/refs/remotes/origin/HEAD	30
 .git/refs/remotes/origin/main	41
 .gitignore	179
-README.md	13207
+README.md	15112
 assembly/HeDe_assembly.fasta.gz	769972144
+assembly/submission_ready/CHECKSUMS.txt	494
+assembly/submission_ready/HeDe_nuclear.fasta	2806915299
+assembly/submission_ready/HeDe_nuclear.fasta.gz	770376058
+assembly/submission_ready/VERIFICATION.txt	689
+assembly/submission_ready/ptg000197l_mitochondrial_derived.fasta	59781
 assembly.zip	770005876
 cnv/HeDe_cnv_20kb_bins.tsv	7482713
 cnv/HeDe_cnv_segments.tsv	61711
